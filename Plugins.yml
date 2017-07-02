@@ -1,0 +1,31 @@
+name: Wings 
+main: Wings/wings
+author: XxBoomer (with a little help of Katyy)
+version: 0.1
+api: 2.0.0
+commands:
+   winghelp:
+      description: Lệnh cách sử dụng wing
+      usage: /wing help
+   wingon:
+      description: Lệnh Nạp Xu cho server
+      usage: /wing on
+   wingoff:
+      description: Lệnh card cho server
+      usage: /wing off
+   winglist
+      description: Lệnh list wing
+      usage: /wing list
+permissions:
+    winghelp.command:
+        description: Allows you to use command.
+        default: true
+    wingon.command:
+        description: Allows you to use the card command.
+        default: true
+    wingoff.command:
+        description: Allows you to use command.
+        default: true
+    winglist.command:
+        description: Allows you to use command.
+        default: true
